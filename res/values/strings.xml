@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">БГПУ Ассистент</string>
+    <string name="goToTask1text">Расчёт теплоты</string>
+    <string name="record">начать</string>
+    <string name="deleteOne">Удалить</string>
+    <string name="deleteAll">Сброс</string>
+    <string name="secs">0.0 sec</string>
+    <string name="repeat_record">Повторить</string>
+    <string name="massa">Масса(гр)</string>
+    <string name="visota">Высота(см)</string>
+    <string name="tip">Введите массу шара и высоту с которой он будет падать. Положите телефон недалеко от предполагаемого места падения, нажмите начать, бросайте шар. \n \n В случае ложных срабатываний сдвиньте ползунок правее, или же левее в случае не срабатывания</string>
+</resources>

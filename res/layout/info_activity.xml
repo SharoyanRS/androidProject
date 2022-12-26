@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivityActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="50sp"
+        android:gravity="left"
+        android:text="В процессе эксперимента
+предлагается определить количество выделившейся теплоты при ударе для шариков
+разной массы и построить график зависимости Q(m).\n\n\n
+Ход работы: в окне проведения эксперимента введите высоту, с которой будут падать шарики (эта высота должна оставаться константой в рамках одного эксперимента), и введите массу первого шара. Далее положите телефон на стол недалеко от места, где упадет шар, для лучшего считывания звука, и нажмите 'начать'. Бросайте шар. После второго удара вы увидите краткую информацию с номером броска, указанной массой шарика и кол-вом выделенной теплоты. Введите массу следующего шара и нажмите кнопку 'повторить', затем бросайте шар. При желании можно удалить последний бросок, нажав кнопку 'удалить', или же удалить все с помощью кнопки 'сброс'."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+         />
+
+    <Button
+        android:layout_marginTop="600sp"
+        android:id="@+id/goExperiment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
